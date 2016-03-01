@@ -3,7 +3,7 @@
 
     <groupId>org.mavengitdemo</groupId>
     <artifactId>mavengitdemo</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>MavenGitDemo</name>
@@ -18,7 +18,7 @@
         <url>https://github.com/fjic/MavenGitDemo</url>
         <connection>scm:git:git@github.com:fjic/MavenGitDemo.git</connection>
         <developerConnection>scm:git:git@github.com:fjic/MavenGitDemo.git</developerConnection>
-        <tag>hotfix-demo</tag>
+        <tag>HEAD</tag>
     </scm>    
     
     <build>
