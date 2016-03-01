@@ -18,7 +18,7 @@
         <url>https://github.com/fjic/MavenGitDemo</url>
         <connection>scm:git:git@github.com:fjic/MavenGitDemo.git</connection>
         <developerConnection>scm:git:git@github.com:fjic/MavenGitDemo.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>hotfix-demo</tag>
     </scm>    
     
     <build>
