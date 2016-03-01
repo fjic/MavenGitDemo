@@ -14,6 +14,8 @@ public class Main {
         log.debug("En run...");
         
         log.info("Aplicacion ejecutada...!");
+        
+        log.info("Fin de Aplicación.");
     }
     
     /**
