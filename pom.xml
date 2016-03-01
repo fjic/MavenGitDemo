@@ -11,8 +11,8 @@
     <url>http://maven.apache.org</url>
 
     <scm>
-        <connection>https://github.com/fjic/MavenGitDemo</connection>
-        <url>scm:git:https://github.com/fjic/MavenGitDemo.git</url>
+        <connection>http://github.com/fjic/MavenGitDemo</connection>
+        <url>scm:git:git@github.com:fjic/MavenGitDemo.git</url>
     </scm>
     
     <properties>
@@ -24,21 +24,20 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+            </plugin>
+        <!--
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-scm-plugin</artifactId>
                 <version>1.9.4</version>
-                <!--
                 <configuration>
                     <goals>install</goals>
                 </configuration>
-                -->
             </plugin>
-        </plugins>
-        <!--
-        <plugin>
-            <artifactId>maven-release-plugin</artifactId>
-            <version>2.5.3</version>
-        </plugin>
         -->
+        </plugins>
     </build>
     
     <dependencies>
